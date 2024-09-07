@@ -106,7 +106,7 @@ const App = () => {
     setOpenModal(false);
   };
 
-  console.log(values)
+  console.log(values);
 
   return (
     <>
@@ -272,7 +272,7 @@ const App = () => {
         </Stack>
       </Container>
       <footer>
-        <Stack alignItems={"end"}>by danielefocarelli</Stack>
+        <Stack style={{ position: "absolute", bottom: 0, right: 0 }}>by danielefocarelli</Stack>
       </footer>
       <Dialog
         open={openModal}
